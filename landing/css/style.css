@@ -1,0 +1,205 @@
+html {
+    font-family: "Inter";
+    box-sizing: border-box;
+    overflow-x: hidden;
+    -webkit-overflow-x: hidden;
+    -moz-overflow-x: hidden;
+    -o-overflow-x: hidden;
+    -ms-overflow-x: hidden;
+    margin: auto;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+body {
+    margin: auto;
+    overflow-x: hidden;
+    -webkit-overflow-x: hidden;
+    -moz-overflow-x: hidden;
+    -o-overflow-x: hidden;
+    -ms-overflow-x: hidden;
+}
+
+.body__wrapper {
+    display: flex;
+    flex-direction: column;
+    min-width: 375px;
+    height: 4497px;
+    margin: 0 auto;
+}
+
+.header {
+    min-width: 375px;
+    height: 812px;
+    background-image: url(../img/png/main\ screen.png);
+}
+
+.header__nav {
+    display: flex;
+    margin-top: 20px;
+    text-decoration: none;
+    width: 300px;
+    height: 32px;
+    margin-bottom: 40px;
+}
+
+.header__nav_logo {
+    width: 80px;
+    height: 27px;
+    margin-left: 20px;
+}
+
+.header__nav_text {
+    display: flex;
+    flex-wrap: nowrap;
+    margin-left: 5.5px;
+    width: 153px;
+    height: 32px;
+    color: #595653;
+    font-variant-numeric: lining-nums proportional-nums;
+    font-family: "Golos Text";
+    font-size: 14.418px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 108%;
+    /* 15.571px */
+    text-transform: uppercase;
+}
+
+.header__content {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 335px;
+    height: 393px;
+}
+
+.header__content_title {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.content__title_p1 {
+    display: flex;
+    color: #313131;
+    font-variant-numeric: lining-nums proportional-nums;
+    font-family: Merriweather;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 110%;
+    text-transform: uppercase;
+    width: 335px;
+    height: 80px;
+}
+
+.content__title_p2 {
+    display: flex;
+    align-items: center;
+    align-self: center;
+    text-align: center;
+    color: #313131;
+    font-variant-numeric: lining-nums proportional-nums;
+    font-family: Merriweather;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 110%;
+    text-transform: uppercase;
+    width: 216px;
+    height: 40px;
+}
+
+.content__title_p3 {
+    display: flex;
+    align-items: center;
+    align-self: center;
+    text-align: center;
+    color: #313131;
+    font-variant-numeric: lining-nums proportional-nums;
+    font-family: Merriweather;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 110%;
+    text-transform: uppercase;
+    width: 335px;
+    height: 40px;
+    padding-left: 30px;
+}
+
+.header__content_text {
+    display: flex;
+    margin-top: 22px;
+    width: 335px;
+    height: 69px;
+    color: #313131;
+    font-variant-numeric: lining-nums proportional-nums;
+    font-family: "Golos Text";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%;
+}
+
+.header__content_buttonsupport {
+    display: flex;
+    border: none;
+    width: 335px;
+    height: 48px;
+    align-self: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    text-align: center;
+    font-family: "Golos Text";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 130%;
+    margin-top: 31px;
+    border-radius: 66px;
+    background: #1F1F1F;
+}
+
+.header__content_buttondetails {
+    margin-top: 14px;
+    display: flex;
+    border: none;
+    width: 335px;
+    height: 48px;
+    align-self: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #1F1F1F;
+    text-align: center;
+    font-family: "Golos Text";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 130%;
+    border-radius: 66px;
+    opacity: 0.9;
+    background: #FFF;
+}
